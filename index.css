@@ -1,0 +1,42 @@
+body {
+  background-image: url("./alexander-park-9kgja4a90LI-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* descendant combinator */
+.box p {
+  color: green;
+}
+/* child combinator */
+section > p {
+  color: red;
+}
+p + section {
+  background-color: yellowgreen;
+}
+#text {
+  background-color: #cf1d1d;
+  color: white;
+  padding: 5px 15px;
+  border-radius: 5px;
+  width: fit-content;
+}
+#text:hover {
+  background-color: rgb(255, 255, 28);
+  height: 50px;
+  color: black;
+  border: radius 20px;
+  padding: 10px 20px;
+  cursor: grab;
+}
+.para {
+  color: white;
+  text-align: center;
+  text-decoration:dotted;
+  line-height: 30px;
+  letter-spacing: 5px;
+  word-spacing: 30px;
+  font-size: 20px;
+}
